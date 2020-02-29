@@ -1,0 +1,7 @@
+-   id: pur
+    name: pip-update-requirements
+    description: Update the packages in a requirements.txt file.
+    entry: pur -r requirements.txt
+    language: python
+    types: [text]
+    pass_filenames: false
